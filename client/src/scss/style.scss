@@ -1,0 +1,70 @@
+$primary-color: lightgray;
+
+*{
+    box-sizing: border-box;
+}
+
+.App{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fluid{
+    width: 35%;
+    height: auto;
+    border: 1px solid $primary-color;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 3px 3px $primary-color;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}
+
+h2{
+    margin: 16px 0;
+}
+
+section{
+    margin: auto;
+}
+
+input{
+    font-size: 20px;
+}
+
+Button{
+    padding: 6px 7px;
+    border: none;
+}
+
+ul{
+    padding: 0;
+    margin: 30px auto;
+    list-style-type: none;
+}
+
+li{
+    border: 1px solid $primary-color;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.todos,
+.icons{
+    width: 50%;
+    cursor: pointer;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

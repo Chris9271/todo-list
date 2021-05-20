@@ -1,0 +1,92 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-fluid {
+  width: 35%;
+  height: auto;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  text-align: center;
+  -webkit-box-shadow: 3px 3px lightgray;
+          box-shadow: 3px 3px lightgray;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+h2 {
+  margin: 16px 0;
+}
+
+section {
+  margin: auto;
+}
+
+input {
+  font-size: 20px;
+}
+
+Button {
+  padding: 6px 7px;
+  border: none;
+}
+
+ul {
+  padding: 0;
+  margin: 30px auto;
+  list-style-type: none;
+}
+
+li {
+  border: 1px solid lightgray;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.todos,
+.icons {
+  width: 50%;
+  cursor: pointer;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+/*# sourceMappingURL=style.css.map */
